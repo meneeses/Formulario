@@ -1,0 +1,44 @@
+
+
+.botoes1 {
+    margin: 20px;
+    width: 224px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.botoes1_1 {
+    margin: 20px;
+    width: 220px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  button:hover{
+    transform: translateY(-5px);
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vh;
+}
+
+p {
+    padding: 10px;
+}

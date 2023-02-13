@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(95deg, blue, red); 
+}
+
+body div {
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vh;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+.formulario h1{
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.field label,
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+
+input .class {
+    position: absolute;
+    left: 100px
+}
+input[type=text],
+input[type=number],
+input[type=date],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.datab{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao:hover {
+    background-color: grey;
+}
+
+
+.org {
+    display: inline;
+    text-align: center;
+}
+
+.botoes1 {
+    margin: 20px;
+    width: 224px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.botoes1_1 {
+    margin: 20px;
+    width: 220px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  button:hover{
+    transform: translateY(-5px);
+  }

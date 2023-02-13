@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>    
+    <link rel="shortcut icon" type="imagex/png" href="images/icone.ico">
+    <title>Biblioteca Virtual</title>
+</head>
+<body>
+   <div>
+    <form class="formulario" OnSubmit="gravarDados();">
+        <form class="formulario" OnSubmit="addItem();">
+        <form class="formulario" method="post">
+            <a class="link" href="index2.html">Clique aqui para ver os Dados Cadastrados</a>
+            <h1 class="container border py-3 my-3">Bibloteca Virtual :)</h1>
+            <p> Preencha os Dados do Livro abaixo:</p>
+            <div class="field">
+                <label for="nome">Nome do Livro: </label>
+                <input type="text" id="livronome" name="livronome" placeholder="Digite o nome do livro" required>
+            </div>
+            <div class="field">
+                <label for="edit">Edição:</label>
+                <input type="text" id="livroedit" name="livroedit" placeholder="Digite a edição do livro">
+            </div>
+            <div class="field">
+                <label for="issn">ISSN:</label>
+                <input type="number" id="livroissn" name="livroissn" placeholder="Digite o ISSN" required>
+            </div>    
+            <div class="field">
+                <label for="autor">Autor:</label>
+                <input type="text" id="livroautor" name="livroautor" placeholder="Digite o nome do autor">
+            </div>
+            <div class="field">
+                <label for="data">Ano: </label>
+                <input type="text" id="livroano" name="livroano" placeholder="Ano de publicação">
+            </div>  
+    
+            <input class="botao" type="submit" name="acao" value="Enviar">
+        </form>
+
+</div>
+
+</body>
+</html>
